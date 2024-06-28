@@ -1,5 +1,15 @@
 * {
   margin: 0;
+  color: whitesmoke;
+}
+
+.body {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+
+  background-color: antiquewhite;
+  /* height: 100vh; */
 }
 
 .header {
@@ -9,7 +19,7 @@
   flex-direction: column;
   /* text-align: center; */
 
-  height: 15rem;
+  height: 12rem;
   background-color: lightgreen;
   /* text-align: center;
   vertical-align: middle; */
@@ -48,4 +58,61 @@
   /* display: table; */
   /* img */
   /* height: 5rem; */
+}
+
+.main {
+  /* height: 100vh; */
+  background-color: rgb(236, 26, 26);
+}
+
+.cards {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  margin: 3rem;
+  background-color: aqua;
+}
+
+.card {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 1rem;
+
+  background-color: black;
+  height: 26rem;
+  width: 12rem;
+  border-radius: 10px;
+}
+
+.card-figure {
+}
+
+.image {
+  /* height: 10rem; */
+  width: 12rem;
+}
+
+.title {
+  padding-inline: 1rem;
+}
+
+.description {
+  padding-inline: 1rem;
+}
+
+.card-button {
+  background-color: darkred;
+  padding: 0.4rem;
+  margin-inline: 1rem;
+  border-radius: 10px;
+  /* padding: 1rem; */
+}
+
+.footer {
+  background-color: darkgray;
+  height: 6rem;
 }
