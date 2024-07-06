@@ -160,6 +160,32 @@
 }
 
 .footer {
-  background-color: darkgray;
-  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #333333;
+  /* background-color: darkgray; */
+  /* height: 10rem; */
+  padding-inline: 5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.footer-header {
+  padding-bottom: 0.3rem;
+  color: whitesmoke;
+}
+
+.footer-text {
+  color: #898989;
+}
+
+.social {
+  display: flex;
+  gap: 0.15rem;
+  /* justify-content: space-between; */
+}
+
+.social-img {
+  height: 1.4rem;
 }
