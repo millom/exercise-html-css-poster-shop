@@ -26,6 +26,14 @@
   vertical-align: middle; */
 }
 
+.collapsed-menu {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+}
+
 .header-text {
   /* flex: 2; */
 
