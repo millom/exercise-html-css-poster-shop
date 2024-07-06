@@ -189,3 +189,7 @@
 .social-img {
   height: 1.4rem;
 }
+
+.display-none {
+  display: none;
+}
