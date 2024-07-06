@@ -71,7 +71,7 @@
 
 .main {
   /* height: 100vh; */
-  background-color: rgb(236, 26, 26);
+  background-color: black;
 }
 
 .cards {
@@ -82,7 +82,7 @@
   gap: 1rem;
 
   margin: 3rem;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .card {
