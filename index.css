@@ -8,6 +8,7 @@
   justify-content: start;
   flex-direction: column;
 
+  max-width: 50rem;
   background-color: antiquewhite;
   /* height: 100vh; */
 }
@@ -83,8 +84,8 @@
   gap: 1rem;
 
   background-color: black;
-  height: 26rem;
-  width: 12rem;
+  height: 27rem;
+  width: 14rem;
   border-radius: 10px;
 }
 
@@ -93,7 +94,7 @@
 
 .image {
   /* height: 10rem; */
-  width: 12rem;
+  width: 14rem;
 }
 
 .title {
@@ -109,6 +110,44 @@
   padding: 0.4rem;
   margin-inline: 1rem;
   border-radius: 10px;
+  /* padding: 1rem; */
+}
+
+.cart-card {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+
+  color: black;
+  background-color: whitesmoke;
+  height: 33rem;
+  width: 21.5rem;
+  border-radius: 10px;
+}
+
+.cart-image {
+  /* height: 10rem; */
+  width: 21.5rem;
+}
+
+.cart-card-title {
+  padding-inline: 1rem;
+  color: black;
+}
+
+.cart-card-description {
+  padding-inline: 1rem;
+  color: black;
+}
+
+.cart-card-button {
+  background-color: darkred;
+  padding: 0.4rem;
+  margin-inline: 1.4rem;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
   /* padding: 1rem; */
 }
 
