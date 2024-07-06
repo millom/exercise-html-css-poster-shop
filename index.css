@@ -97,6 +97,7 @@
   max-height: 27rem;
   max-width: 14rem;
   border-radius: 10px;
+  margin-bottom: 2.5rem;
 }
 
 .card-figure {
@@ -132,9 +133,10 @@
 
   color: black;
   background-color: whitesmoke;
-  height: 33rem;
-  width: 21.5rem;
+  max-height: 33rem;
+  max-width: 21.5rem;
   border-radius: 10px;
+  margin-bottom: 2.5rem;
 }
 
 .cart-image {
@@ -170,14 +172,15 @@
   background-color: #333333;
   /* background-color: darkgray; */
   /* height: 10rem; */
-  padding-inline: 5rem;
-  padding-top: 2.5rem;
+  padding-inline: 10rem;
+  padding-top: 1.5rem;
   padding-bottom: 3.5rem;
 }
 
 .footer-header {
   padding-bottom: 0.3rem;
   color: whitesmoke;
+  padding-top: 2rem;
 }
 
 .footer-text {
@@ -187,6 +190,7 @@
 .social {
   display: flex;
   gap: 0.15rem;
+  padding-bottom: 2rem;
   /* justify-content: space-between; */
 }
 
