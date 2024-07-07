@@ -52,6 +52,7 @@
 .table-header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   font-size: 1.5rem;
   background-color: rgb(139, 0, 0, 0.6);
@@ -60,10 +61,17 @@
 .table-line {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+
   font-size: 2rem;
 }
 
 .line {
   height: 0.2rem;
   background-color: rgb(115, 115, 115);
+}
+
+.checkout-back-container {
+  display: flex;
+  justify-content: space-between;
 }
