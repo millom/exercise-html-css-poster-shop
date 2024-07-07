@@ -1,1 +1,69 @@
 @import url("custom.css");
+
+.main {
+  display: flex;
+  justify-content: start;
+  /* align-items: start; */
+  flex-direction: column;
+
+  margin-inline: 6rem;
+  /* flex-wrap: wrap; */
+  /* gap: 1rem; */
+  /* background-color: black; */
+  /* margin: 3rem; */
+  /* background-color: aqua; */
+}
+
+/* .horizontal-layout-center {
+  display: flex;
+  justify-content: center;
+
+  margin: 3rem; */
+/* align-items: start;
+  flex-direction: column; */
+/* background-color: aqua; */
+/* } */
+
+.main-header-layout {
+  /* display: flex;
+  justify-content: start; */
+
+  margin-left: 3rem;
+  margin-top: 3rem;
+  /* align-items: start;
+  flex-direction: column; */
+  /* background-color: aqua; */
+}
+
+.table-layout {
+  display: flex;
+  justify-content: start;
+  /* align-items: start; */
+  flex-direction: column;
+
+  margin-inline: 3rem;
+  margin-bottom: 5rem;
+}
+
+/* .table-placement {
+  width: 60%;
+} */
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 1.5rem;
+  background-color: rgb(139, 0, 0, 0.6);
+}
+
+.table-line {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.line {
+  height: 0.2rem;
+  background-color: rgb(115, 115, 115);
+}
