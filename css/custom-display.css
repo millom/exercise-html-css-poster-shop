@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* position: fixed;
+  left: 0;
+  right: 0;
+  top: 0; */
+}
+
 .grid-item,
 header,
 main,
@@ -23,7 +33,7 @@ footer {
   width: 1.5rem;
   height: 1.5rem;
 
-  position: absolute;
+  position: relative;
   top: 1rem;
   left: 1rem;
 }
@@ -60,4 +70,24 @@ footer {
   height: 4rem;
   margin: 0;
   bottom: 0;
+}
+
+.body .footer .footer-header {
+  /* padding-bottom: 0.3rem; */
+  color: whitesmoke;
+  /* padding-top: 2rem; */
+}
+
+.body .footer .footer-text {
+  color: #898989;
+}
+
+.body .footer .social {
+  /* display: flex;
+  gap: 0.15rem; */
+  padding-bottom: 2rem;
+}
+
+.body .footer .social-img {
+  height: 1.4rem;
 }

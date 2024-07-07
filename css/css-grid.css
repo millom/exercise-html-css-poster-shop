@@ -6,7 +6,7 @@ body {
 .body {
   display: grid;
   grid-template-columns: 10% auto 10%;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 12rem auto 10rem;
 
   /* grid-row-start: 1;
   grid-row-end: 2; */
@@ -24,8 +24,56 @@ body {
   grid-template-rows: 1fr 1fr 1fr; */
 }
 
+/* header { */
+/* grid-column-start: 2;
+  grid-column-end: 2; */
+/* } */
+
 header,
+main,
 footer {
-  grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.body .footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10% auto 10%;
+
+  padding-top: 5%;
+  /* padding-bottom: 6rem; */
+  /* grid-column-start: 2;
+  grid-column-end: 4; */
+
+  /* display: grid;
+  grid-template-columns: 10% 1fr 1fr 1fr 10%;
+  grid-template-rows: 100%; */
+
+  /* grid-column-start: 2;
+  grid-column-end: 4; */
+
+  /* justify-content: center;
+  align-content: center; */
+}
+
+.body .footer .footer-col {
+  /* display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr; */
+
+  /* padding: 4rem; */
+  /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    ". . . . . . . . . . . ."
+    ". . . elem1 . . ."
+    ". . . elem2 . . ."
+    ". . . elem3 . . ."
+    ". . . elem4 . . ."
+    ". . . . . . . . . . . ."; */
+
+  /* display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column; */
 }
