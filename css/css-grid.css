@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 10% auto 10%;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  /* grid-row-start: 1;
+  grid-row-end: 2; */
+}
+
+.header {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    ". . . . elem1 . . . ."
+    ". . . . elem2 . . . ."
+    ". . . . elem3 . . . .";
+
+  /* grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; */
+}
+
+header,
+footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
