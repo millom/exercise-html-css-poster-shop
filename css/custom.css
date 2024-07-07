@@ -8,10 +8,7 @@
   justify-content: start;
   flex-direction: column;
 
-  /* max-width: 50rem; */
   background-color: black;
-  /* background-color: antiquewhite; */
-  /* height: 100vh; */
 }
 
 .header {
@@ -27,12 +24,6 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-
-  /* justify-content: space-between; */
-  /* text-align: center; */
-
-  /* text-align: center;
-  vertical-align: middle; */
 }
 
 .collapsed-menu {
@@ -45,41 +36,14 @@
 }
 
 .header-text {
-  /* flex: 2; */
   font-size: 2.5rem;
-
-  /* position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%); */
-
-  /* position: absolute;
-  left: 50%;
-  right: 50%;
-  top: 50%; */
-  /* bottom: 50%; */
-  /* transform: translate(-50%, -50%); */
-
-  /* position: relative;
-  left: 50%;
-  right: 50%;
-  top: 50%;
-  bottom: 50%; */
-
-  /* transform: translate(-50%, -50%); */
 }
 
 .empty-figure {
   height: 2.5rem;
-  /* width: 5rem;
-  height: 3rem; */
-  /* width: 100%;
-  height: 100%;*/
 }
 
 .ninja-figure {
-  /* flex: 1; */
-  /* background-color: aliceblue; */
   background-image: url("../assets/ninjahead.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -87,37 +51,15 @@
 
   width: 5rem;
   height: 3rem;
-
-  /* position: relative;
-  bottom: 0; */
-
-  /* transform: translate(-50%, -50%); */
-
-  /* position: absolute;
-  left: 50%; */
-  /* right: 50%; */
-  /* bottom: 0; */
-  /* bottom: 0; */
-  /* background-; */
-  /* width: 10rem;
-  height: 10rem; */
-  /* width: 10rem; */
-  /* height: 10rem; */
-  /* background-position: bottom; */
-  /* display: table; */
-  /* img */
-  /* height: 5rem; */
 }
 
 .cards {
   display: flex;
   justify-content: start;
-  /* align-items: start; */
   flex-wrap: wrap;
   gap: 1rem;
 
   margin: 3rem;
-  /* background-color: aqua; */
 }
 
 .cart-card {
@@ -136,8 +78,6 @@
 }
 
 .cart-image {
-  /* height: 10rem; */
-  /* width: 21.5rem; */
   width: 100%;
 }
 
@@ -157,7 +97,6 @@
   margin-inline: 1.4rem;
   border-radius: 10px;
   margin-bottom: 0.5rem;
-  /* padding: 1rem; */
 }
 
 .checkout-container {
@@ -166,12 +105,6 @@
 }
 
 .checkout-button {
-  /* display: flex;
-  align-content: center;
-  justify-content: center; */
-
-  /* text-align: center; */
-
   font-size: 3rem;
   padding: 2rem;
   margin-bottom: 2rem;
@@ -184,8 +117,6 @@
   flex-wrap: wrap;
 
   background-color: #333333;
-  /* background-color: darkgray; */
-  /* height: 10rem; */
   padding-inline: 10rem;
   padding-top: 1.5rem;
   padding-bottom: 3.5rem;
@@ -205,7 +136,6 @@
   display: flex;
   gap: 0.15rem;
   padding-bottom: 2rem;
-  /* justify-content: space-between; */
 }
 
 .social-img {
