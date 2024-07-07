@@ -72,6 +72,42 @@ footer {
   bottom: 0;
 }
 
+.body .main .checkout-container {
+  /* display: flex;
+  justify-content: center; */
+
+  display: grid;
+  justify-content: right;
+  margin-bottom: 2rem;
+
+  /* margin-inline-start: 2rem; */
+}
+
+.body .main .checkout-back-container {
+  /* display: flex;
+  justify-content: space-between; */
+
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: 100%;
+
+  justify-content: space-around;
+
+  margin-bottom: 2rem;
+  /* margin-inline-start: 2rem; */
+}
+
+.body .main .checkout-container .checkout-button,
+.body .main .checkout-back-container .checkout-button {
+  background-color: darkred;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-inline: 1.4rem;
+  /* margin-bottom: 4rem; */
+  border-radius: 10px;
+  text-decoration: none;
+}
+
 .body .footer .footer-header {
   /* padding-bottom: 0.3rem; */
   color: whitesmoke;

@@ -29,6 +29,29 @@ body {
   grid-column-end: 2; */
 /* } */
 
+.body .main {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fp 1fp 10rem;
+}
+
+.body .main .cards {
+  /* display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 1rem; */
+
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(100px, 1fr)
+  ); /* see notes below */
+  grid-gap: 1em;
+
+  margin-block: 3rem;
+  margin-inline: 6rem;
+}
+
 header,
 main,
 footer {
