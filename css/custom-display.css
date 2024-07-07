@@ -2,20 +2,22 @@
   margin: 0;
   padding: 0;
   border: 0;
+  background-color: black;
+  color: whitesmoke;
   /* position: fixed;
   left: 0;
   right: 0;
   top: 0; */
 }
 
-.grid-item,
+/* .grid-item,
 header,
 main,
 footer {
   background: green;
   color: white;
   border: 1px solid red;
-}
+} */
 
 /* .body { */
 /* background-color: black; */
@@ -30,6 +32,7 @@ footer {
 }
 
 .body .header .collapsed-menu {
+  background-color: lightgreen;
   width: 1.5rem;
   height: 1.5rem;
 
@@ -39,12 +42,14 @@ footer {
 }
 
 .body .header .empty-figure {
+  background-color: lightgreen;
   grid-area: elem1;
 
   bottom: 0;
 }
 
 .body .header .header-text {
+  background-color: lightgreen;
   font-size: 4.5rem;
   color: black;
   grid-area: elem2;
@@ -57,6 +62,7 @@ footer {
 }
 
 .body .header .ninja-figure {
+  background-color: lightgreen;
   display: flex;
   justify-content: center;
   align-self: self-end;
@@ -67,6 +73,7 @@ footer {
 }
 
 .ninja-head-image {
+  background-color: lightgreen;
   height: 4rem;
   margin: 0;
   bottom: 0;
@@ -89,6 +96,7 @@ footer {
   color: whitesmoke;
   padding: 0.4rem;
   margin-inline: 1rem;
+  margin-bottom: 1rem;
   border-radius: 10px;
 }
 
@@ -101,11 +109,13 @@ footer {
 }
 
 .body .main .cart-cards .cart-card .cart-card-title {
+  background-color: whitesmoke;
   padding-inline: 1rem;
   color: black;
 }
 
 .body .main .cart-cards .cart-card .cart-card-description {
+  background-color: whitesmoke;
   padding-inline: 1rem;
   color: black;
 }
