@@ -11,8 +11,8 @@
   background-color: black;
 }
 
-.header {
-  height: 12rem;
+.body .header {
+  height: 18rem;
   background-color: lightgreen;
 
   position: relative;
@@ -26,43 +26,45 @@
   flex-direction: column;
 }
 
-.collapsed-menu {
-  width: 1rem;
-  height: 1rem;
+.body .header .collapsed-menu {
+  width: 1.5rem;
+  height: 1.5rem;
 
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
 }
 
-.header-text {
-  font-size: 2.5rem;
+.body .header .header-text {
+  font-size: 4.5rem;
+  color: black;
 }
 
-.empty-figure {
+.body .header .empty-figure {
   height: 2.5rem;
 }
 
-.ninja-figure {
+.body .header .ninja-figure {
   background-image: url("../assets/ninjahead.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 
-  width: 5rem;
-  height: 3rem;
+  width: 10rem;
+  height: 6rem;
 }
 
-.cards {
+.body .main .cards {
   display: flex;
   justify-content: start;
   flex-wrap: wrap;
   gap: 1rem;
 
-  margin: 3rem;
+  margin-block: 3rem;
+  margin-inline: 6rem;
 }
 
-.cart-card {
+.body .main .cards .cart-card {
   display: flex;
   align-items: start;
   flex-direction: column;
@@ -77,21 +79,21 @@
   margin-bottom: 2.5rem;
 }
 
-.cart-image {
+.body .main .cards .cart-card .cart-image {
   width: 100%;
 }
 
-.cart-card-title {
+.body .main .cards .cart-card .cart-card-title {
   padding-inline: 1rem;
   color: black;
 }
 
-.cart-card-description {
+.body .main .cards .cart-card .cart-card-description {
   padding-inline: 1rem;
   color: black;
 }
 
-.cart-card-button {
+.body .main .cards .cart-card .cart-card-button {
   background-color: darkred;
   padding: 0.4rem;
   margin-inline: 1.4rem;
@@ -99,19 +101,32 @@
   margin-bottom: 0.5rem;
 }
 
-.checkout-container {
+.body .main .checkout-container {
   display: flex;
   justify-content: center;
+
+  /* margin-inline-start: 2rem; */
 }
 
-.checkout-button {
-  font-size: 3rem;
-  padding: 2rem;
-  margin-bottom: 2rem;
+.body .main .checkout-back-container {
+  display: flex;
+  justify-content: space-between;
+
+  margin-inline-start: 2rem;
+}
+
+.body .main .checkout-container .checkout-button,
+.body .main .checkout-back-container .checkout-button {
+  background-color: darkred;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-inline: 1.4rem;
+  margin-bottom: 4rem;
+  border-radius: 10px;
   text-decoration: none;
 }
 
-.footer {
+.body .footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -122,22 +137,22 @@
   padding-bottom: 3.5rem;
 }
 
-.footer-header {
+.body .footer .footer-header {
   padding-bottom: 0.3rem;
   color: whitesmoke;
   padding-top: 2rem;
 }
 
-.footer-text {
+.body .footer .footer-text {
   color: #898989;
 }
 
-.social {
+.body .footer .social {
   display: flex;
   gap: 0.15rem;
   padding-bottom: 2rem;
 }
 
-.social-img {
+.body .footer .social-img {
   height: 1.4rem;
 }

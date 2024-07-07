@@ -1,6 +1,6 @@
 @import url("custom.css");
 
-.main {
+.body .main {
   display: flex;
   justify-content: start;
   flex-direction: column;
@@ -8,12 +8,21 @@
   margin-inline: 6rem;
 }
 
-.main-header-layout {
+.body .main .main-header-layout {
   margin-left: 3rem;
   margin-top: 3rem;
 }
 
-.table-layout {
+.body .main .main-header-layout .header-text {
+  font-size: 2.5rem;
+}
+
+.body .main .cards {
+  margin-left: 3rem;
+  margin-right: 6rem;
+}
+
+.body .main .table-layout {
   display: flex;
   justify-content: start;
   flex-direction: column;
@@ -22,7 +31,7 @@
   margin-bottom: 5rem;
 }
 
-.table-header {
+.body .main .table-layout .table-header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -31,7 +40,7 @@
   background-color: rgb(139, 0, 0, 0.6);
 }
 
-.table-line {
+.body .main .table-layout .table-line {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -39,12 +48,7 @@
   font-size: 2rem;
 }
 
-.line {
+.body .main .table-layout .table-line .line {
   height: 0.2rem;
   background-color: rgb(115, 115, 115);
-}
-
-.checkout-back-container {
-  display: flex;
-  justify-content: space-between;
 }

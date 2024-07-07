@@ -1,6 +1,10 @@
 @import url("custom.css");
 
-.cards {
+.body .main {
+  margin-inline: 6rem;
+}
+
+.body .main .cards {
   display: flex;
   justify-content: start;
   flex-wrap: wrap;
@@ -9,7 +13,7 @@
   margin: 3rem;
 }
 
-.card {
+.body .main .cards .card {
   display: flex;
   align-items: start;
   flex-direction: column;
@@ -22,25 +26,25 @@
   margin-bottom: 2.5rem;
 }
 
-.image {
+.body .main .cards .card .card-figure .image {
   max-width: 14rem;
 }
 
-.title {
+.body .main .cards .card .title {
   padding-inline: 1rem;
 }
 
-.description {
+.body .main .cards .card .description {
   padding-inline: 1rem;
 }
 
-.card-button {
+.body .main .cards .card .card-button {
   background-color: darkred;
   padding: 0.4rem;
   margin-inline: 1rem;
   border-radius: 10px;
 }
 
-.display-none {
+.body .main .cards .card .display-none {
   display: none;
 }
