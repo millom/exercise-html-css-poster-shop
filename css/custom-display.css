@@ -72,6 +72,31 @@ footer {
   bottom: 0;
 }
 
+.body .main .cards .cart-card .cart-image {
+  width: 100%;
+}
+
+.body .main .cards .cart-card .cart-card-title {
+  padding-inline: 1rem;
+  color: black;
+}
+
+.body .main .cards .cart-card .cart-card-description {
+  padding-inline: 1rem;
+  color: black;
+}
+
+.body .main .cards .cart-card .cart-card-button {
+  background-color: darkred;
+  color: whitesmoke;
+  padding: 0.4rem;
+  margin-inline: 1.4rem;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  /* display: grid;
+  justify-content: center; */
+}
+
 .body .main .checkout-container {
   /* display: flex;
   justify-content: center; */
@@ -100,6 +125,7 @@ footer {
 .body .main .checkout-container .checkout-button,
 .body .main .checkout-back-container .checkout-button {
   background-color: darkred;
+  /* color: whitesmoke; */
   font-size: 2rem;
   padding: 1rem;
   margin-inline: 1.4rem;

@@ -44,12 +44,39 @@ body {
   display: grid;
   grid-template-columns: repeat(
     auto-fill,
-    minmax(100px, 1fr)
+    minmax(21.5rem, 1fr)
   ); /* see notes below */
   grid-gap: 1em;
 
-  margin-block: 3rem;
-  margin-inline: 6rem;
+  /* display: grid; */
+  /* grid-template-columns: repeat( */
+  /* auto-fill, auto-fit,
+    1fr minmax(100px, 1fp) */
+  /* ); see notes below */
+  grid-gap: 1em;
+
+  margin: 2rem;
+  /* margin-block: 3rem;
+  margin-inline: 6rem; */
+}
+
+.body .main .cards .cart-card {
+  /* display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem; */
+  display: grid;
+  grid-template-columns: 1fp;
+  grid-template-rows: 1fp 1fp 1fp 1fp;
+  grid-gap: 1em;
+
+  color: black;
+  background-color: whitesmoke;
+  max-height: 33rem;
+  max-width: 21.5rem;
+  border-radius: 10px;
+  margin-bottom: 2.5rem;
 }
 
 header,
