@@ -169,16 +169,19 @@ footer {
 }
 
 .body .footer .footer-header {
+  background-color: #333333;
   /* padding-bottom: 0.3rem; */
   color: whitesmoke;
   /* padding-top: 2rem; */
 }
 
 .body .footer .footer-text {
+  background-color: #333333;
   color: #898989;
 }
 
 .body .footer .social {
+  background-color: #333333;
   /* display: flex;
   gap: 0.15rem; */
   padding-bottom: 2rem;

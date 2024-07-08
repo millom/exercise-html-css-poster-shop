@@ -124,10 +124,14 @@ body {
 }
 
 header,
-main,
-footer {
+main {
   grid-column-start: 2;
   grid-column-end: 2;
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 
 .body .footer {
@@ -136,6 +140,8 @@ footer {
   grid-template-rows: 10% auto 10%;
 
   padding-top: 5%;
+  background-color: #333333;
+  padding-inline: 13%;
   /* padding-bottom: 6rem; */
   /* grid-column-start: 2;
   grid-column-end: 4; */
