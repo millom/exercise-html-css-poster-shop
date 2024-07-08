@@ -150,7 +150,7 @@ footer {
   grid-template-columns: max-content max-content;
   grid-template-rows: 100%;
 
-  justify-content: space-around;
+  justify-content: space-between;
 
   margin-bottom: 2rem;
   /* margin-inline-start: 2rem; */
