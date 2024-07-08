@@ -4,24 +4,7 @@
   border: 0;
   background-color: black;
   color: whitesmoke;
-  /* position: fixed;
-  left: 0;
-  right: 0;
-  top: 0; */
 }
-
-/* .grid-item,
-header,
-main,
-footer {
-  background: green;
-  color: white;
-  border: 1px solid red;
-} */
-
-/* .body { */
-/* background-color: black; */
-/* } */
 
 .body .header {
   background-color: lightgreen;
@@ -127,25 +110,15 @@ footer {
   margin-inline: 1.4rem;
   border-radius: 10px;
   margin-bottom: 0.5rem;
-  /* display: grid;
-  justify-content: center; */
 }
 
 .body .main .checkout-container {
-  /* display: flex;
-  justify-content: center; */
-
   display: grid;
   justify-content: right;
   margin-bottom: 2rem;
-
-  /* margin-inline-start: 2rem; */
 }
 
 .body .main .checkout-back-container {
-  /* display: flex;
-  justify-content: space-between; */
-
   display: grid;
   grid-template-columns: max-content max-content;
   grid-template-rows: 100%;
@@ -153,7 +126,6 @@ footer {
   justify-content: space-between;
 
   margin-bottom: 2rem;
-  /* margin-inline-start: 2rem; */
 }
 
 .body .main .checkout-container .checkout-button,
@@ -163,7 +135,6 @@ footer {
   font-size: 2rem;
   padding: 1rem;
   margin-inline: 1.4rem;
-  /* margin-bottom: 4rem; */
   border-radius: 10px;
   text-decoration: none;
 }
@@ -182,8 +153,6 @@ footer {
 
 .body .footer .social {
   background-color: #333333;
-  /* display: flex;
-  gap: 0.15rem; */
   padding-bottom: 2rem;
 }
 
